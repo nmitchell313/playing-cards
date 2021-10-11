@@ -23,6 +23,8 @@ public class Test {
         System.out.println(deck);
         Collections.shuffle(deck, new SecureRandom());
         System.out.println(deck);
-
+        Collections.sort(deck);
+        System.out.println(deck);
     }
+
 }
